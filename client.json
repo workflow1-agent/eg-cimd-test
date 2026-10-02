@@ -1,0 +1,17 @@
+{
+  "client_id": "https://raw.githubusercontent.com/workflow1-agent/eg-cimd-test/main/client.json",
+  "client_name": "EG Research CIMD",
+  "client_uri": "https://github.com/workflow1-agent/eg-cimd-test",
+  "redirect_uris": [
+    "https://raw.githubusercontent.com/workflow1-agent/eg-cimd-test/main/cb",
+    "https://oast.fun/cb"
+  ],
+  "token_endpoint_auth_method": "none",
+  "grant_types": [
+    "authorization_code"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "scope": "openid profile email"
+}
